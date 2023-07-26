@@ -362,6 +362,7 @@ color: #f9f9f9;
         width: 100%;
         background-color: #048a76;
         z-index: 99;
+        transition: height 0.3s ease;
     }
 
     .navbar.show {

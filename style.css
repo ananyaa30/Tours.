@@ -363,7 +363,8 @@ color: #f9f9f9;
         width: 100%;
         background-color: #048a76;
         z-index: 99;
-        transition: height 0.3s ease;
+        transition: height 0.6s ease;
+        overflow-x: clip;
     }
 
     .navbar.show {
@@ -414,13 +415,13 @@ color: #f9f9f9;
     }
 
     .right-info h1 {
-        font-size: 92px;
+        font-size: 80px;
     }
     .right-info h4 {
-        margin-bottom: 89px;
+        margin-bottom: 80px;
     }
     .content p {
-        font-size: 15px;
+        font-size: 11px;
     }
     .sec p {
         font-size: 1em;
@@ -431,8 +432,5 @@ color: #f9f9f9;
         margin-bottom: 9px;
         margin-top: 4px;
         margin-right: 47px;
-    }
-    .newsletter {
-    padding: 99px;
     }
 }
